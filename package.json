@@ -1,0 +1,34 @@
+{
+  "name": "@arujoiumare/claude-notify",
+  "version": "0.1.0",
+  "description": "Cross-platform desktop notifications for Claude Code",
+  "bin": {
+    "claude-notify": "dist/cli.js"
+  },
+  "main": "dist/index.cjs",
+  "files": [
+    "dist/",
+    "vendor/"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build:notifier": "VENDOR_DIR=vendor native-notifier/build.sh",
+    "prepublishOnly": "npm run build:notifier && npm run build && npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "darwin"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^3.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

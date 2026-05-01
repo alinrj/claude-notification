@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.tgz
+.idea/
+native-notifier/build/
+.tmp
+.claude/
+PLAN.md
