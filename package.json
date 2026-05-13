@@ -21,6 +21,14 @@
   "engines": {
     "node": ">=18"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinrj/claude-notification.git"
+  },
+  "homepage": "https://github.com/alinrj/claude-notification#readme",
+  "bugs": {
+    "url": "https://github.com/alinrj/claude-notification/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.0.0",
