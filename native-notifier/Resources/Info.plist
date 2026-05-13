@@ -4,7 +4,7 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleIdentifier</key>
-    <string>com.arujoiumare.claude-notify</string>
+    <string>com.alinrj.claude-notify</string>
     <key>CFBundleName</key>
     <string>ClaudeNotifier</string>
     <key>CFBundleDisplayName</key>
@@ -14,7 +14,7 @@
     <key>CFBundleIconFile</key>
     <string>AppIcon</string>
     <key>CFBundlePackageType</key>
-    <string>APPL</string>
+    <string>APPL</string>no
     <key>CFBundleVersion</key>
     <string>1.0.0</string>
     <key>CFBundleShortVersionString</key>

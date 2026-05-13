@@ -1,5 +1,5 @@
 {
-  "name": "@arujoiumare/claude-notify",
+  "name": "@alinrj/claude-notify",
   "version": "0.1.0",
   "description": "Cross-platform desktop notifications for Claude Code",
   "bin": {
@@ -16,19 +16,19 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "build:notifier": "VENDOR_DIR=vendor native-notifier/build.sh",
-    "prepublishOnly": "npm run build:notifier && npm run build && npm test"
+    "prepublishOnly": "npm run build && npm test"
   },
   "engines": {
     "node": ">=18"
   },
-  "os": [
-    "darwin"
-  ],
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^20.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.4.0",
-    "vitest": "^3.0.0",
-    "@types/node": "^20.0.0"
+    "vitest": "^3.0.0"
+  },
+  "dependencies": {
+    "@alinrj/claude-notify": "^0.1.0"
   }
 }
