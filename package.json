@@ -1,6 +1,6 @@
 {
   "name": "@alinrj/claude-notify",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Cross-platform desktop notifications for Claude Code",
   "bin": {
     "claude-notify": "dist/cli.js"
