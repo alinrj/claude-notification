@@ -20,6 +20,24 @@ On first run, macOS will ask to allow notifications — approve once and forget 
 - **Answer dropdowns** — pick from Claude's options without switching windows
 - **Smart suppression** — if you're already looking at the terminal, no notification fires
 
+### Permission requests
+
+Approve or deny tool use directly from the notification — no need to switch windows.
+
+![Permission notification with Allow/Deny buttons](https://raw.githubusercontent.com/alinrj/claude-notification/main/assets/permission-notification.png)
+
+### Task completed
+
+A simple banner when Claude finishes. Click it to jump back to the terminal.
+
+![Claude stopped notification](https://raw.githubusercontent.com/alinrj/claude-notification/main/assets/stop-notification.png)
+
+### Questions with options
+
+When Claude asks a question, pick your answer from a dropdown right in the notification.
+
+![Question notification with multiple options](https://raw.githubusercontent.com/alinrj/claude-notification/main/assets/question-notification.png)
+
 ## How it behaves
 
 - **Terminal focused?** No notification. You're already there.
